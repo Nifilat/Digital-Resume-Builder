@@ -4,62 +4,66 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="./index.css">
-
- <title>Digital Résumé</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Rozha+One&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="./style.css">
+<title>Digital Résumé</title>
 </head>
-<body>
-   <div >
-      <header id="header">
-         <div >
-            <div>
-               <button type="button"
-                  >Get
-                  In Touch
-                  <span
-                     >2</span>
+<body style="color:#545454">
+   <div class="relative w-[612px] h-[792px] bg-white mx-auto my-14 px-6">
+      <header>
+         <div class="flex items-center justify-between" >
+            <div id="contact" class="flex item-center gap-3">
+               <button type="button" class="p-2.5 relative rounded-xl bg-[#BFAEE5] text-[#545454] text-bold text-xs shadow-[0px_2px_0px_rgb(151,71,255)] active:shadow-none transition-all active:translate-y-2"
+                  ><div>Get
+                  In Touch</div>
+                  <div class="absolute top-0 right-0 w-6 h-6 rounded-full bg-red-500 text-white text-[10px]  border-2 border-white text-bold flex items-center justify-center translate-x-[50%] translate-y-[-50%]"><span>2</span></div>
+                  
                </button>
-               <span >(555) 555-1234</span>
+               <span class="text-[#B2B2B2] text-xs font-light self-center">(555) 555-1234</span>
             </div>
-            <div id="personal">
-               <p >Jason Mayfield Jr., 25</p>
-               <p >Remote Product Designer</p>
-            </div>
-            <img src="./images/ToyFaces_Colored_BG_56-scaled.jpg" alt="3D image" id="picture" >
+           <div class="flex items-center gap-2">
+               <div class="flex flex-col gap-0.5 items-end">
+                  <p class="font-bold text-xs">Jason Mayfield Jr., 25</p>
+                  <p class="font-normal text-xs" >Remote Product Designer</p>
+               </div>
+               <img class="w-10 h-10 rounded-full object-cover object-center" src="./images/ToyFaces_Colored_BG_56-scaled.jpg" alt="3D image">
+           </div>
             
          </div>
       </header>
-      <br>
-      <hr>
-      <br>
+      <hr
+      class="h-0.5 w-full bg-[#EFEFEF] my-5 block"
+      />
       <main>
          <!-- The section houses the two columns -->
          <section>
             <!-- This first div is for column left -->
             <div >
                <!-- This next div is for the introduction part -->
-               <div >
+               <div class="flex flex-col gap-5">
                   <!-- This div houses the introductory text -->
-                  <div >Hello, I’m Jason! 👋</h2>
-                  <br>
-                  <p >A remote product designer from San Francisco, CA. I focus in <br> crafting beautiful experiences through visual design.</p>
-                  </div>
+                  <h2 class="text-xl font-bold text-[#545454]">Hello, I’m Jason! 👋</h2>
+                  <p class="font-normal text-xs" >A remote product designer from San Francisco, CA. I focus in <br> crafting beautiful experiences through visual design.</p>
                <!-- This is the div for the buttons -->
-               <div >
-                  <button type="button"
+               <div class="flex flex-row items-center gap-2">
+                  
+                  <button  type="button" class="p-3 font-bold text-xs rounded-xl bg-[#9EE5E1] shadow-[0px_2px_0px_rgb(105,155,247)] active:shadow-none transition-all active:translate-y-2"
                      >View My
                      Portfolio</button>
-                  <span><button type="button"
-                        >Website</button></span>
-                  <span><button type="button"
-                        >Linktree</button></span>
-               </div>
-               <!-- This is the end of the introduction part -->
+                  <button type="button" class="p-3 font-bold text-xs rounded-xl bg-[#E5BD8E] shadow-[0px_2px_0px_rgb(210,124,44)] active:shadow-none transition-all active:translate-y-2"
+                        >Website</button>
+                  <button type="button" class="p-3 font-bold text-xs rounded-xl bg-[#A9E372] shadow-[0px_2px_0px_rgb(15,169,88)] active:shadow-none transition-all active:translate-y-2"
+                        >Linktree</button>
+                        
+               </div>  
                </div>
                
-               <!-- This div is for Education -->
-               <div
-                  >
+               <!-- This is the end of the introduction part -->
+               </div>
+               <!-- This div is for the Education -->
+               <div class="flex-col items-start p-2.5 static w-[360px] h-[192px] border-box border-[1px] border-[rgb(159,159,159)] rounded-xl">
                   <h4>EDUCATION</h4>
                   <br>
                   <h4>Bachelor of Fine Arts</h4>
@@ -88,7 +92,6 @@
                   <h4>Meta (Prev. Facebook)</h4>
                   <p>Design intern / Palo Alto, CA / 2017-2018</p>
                </div>
-            </div>
             
             <div >
                <div >
@@ -127,7 +130,7 @@
                </div>
                <footer>
                   <div >
-                     <img src="./images/Flags/USA.png" alt="" >
+                     <img src="./images/Flags/USA.png" alt="USA flag" >
                      <img src="./images/Flags/FRA.png" alt="France flag" >
                     
 
@@ -140,10 +143,8 @@
       
       
       
-         </div>
       
-      
-         <hr >
+         <hr style="position: absolute; width: 572px; height: 0px; left: 20px; top: 750px;" >
       
          <footer >
             <p >&copy; 2022-Present / Jason Mayfield Jr.</p>
