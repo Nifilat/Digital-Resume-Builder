@@ -1,0 +1,14 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Digital resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "latunde oluwanifemi",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
