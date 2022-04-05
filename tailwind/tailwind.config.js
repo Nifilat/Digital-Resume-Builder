@@ -1,6 +1,5 @@
-const colors = require('tailwindcss/colors') // you can also write to me in the editor
-// this already contains all of th colors, so youre justw writing them again 😁
-// Alright boss
+const colors = require('tailwindcss/colors') 
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   presets: [],
