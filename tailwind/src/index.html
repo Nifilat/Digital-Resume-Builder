@@ -1,173 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Rozha+One&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="./style.css">
-<title>Digital Résumé</title>
-</head>
-<body style="color:#545454">
-   <div class="relative w-[612px] h-[792px] bg-white mx-auto my-14 px-6">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Rozha+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Digital Résumé</title>
+  </head>
+  <body style="color: #545454">
+    <div class="relative w-[612px] h-[792px] bg-white mx-auto my-14 px-6">
       <header>
-         <div class="flex items-center justify-between" >
-            <div id="contact" class="flex item-center gap-3">
-               <button type="button" class="p-2.5 relative rounded-xl bg-[#BFAEE5] text-[#545454] text-bold text-xs shadow-[0px_2px_0px_rgb(151,71,255)] active:shadow-none transition-all active:translate-y-2"
-                  ><div>Get
-                  In Touch</div>
-                  <div class="absolute top-0 right-0 w-6 h-6 rounded-full bg-red-500 text-white text-[10px]  border-2 border-white text-bold flex items-center justify-center translate-x-[50%] translate-y-[-50%]"><span>2</span></div>
-                  
-               </button>
-               <span class="text-[#B2B2B2] text-xs font-light self-center">(555) 555-1234</span>
+        <div class="flex items-center justify-between">
+          <div id="contact" class="flex item-center gap-3">
+            <button
+              type="button"
+              class="p-2.5 relative rounded-xl bg-[#BFAEE5] text-[#545454] text-bold text-xs shadow-[0px_2px_0px_rgb(151,71,255)] active:shadow-none transition-all active:translate-y-2"
+            >
+              <div>Get In Touch</div>
+              <div
+                class="absolute top-0 right-0 w-6 h-6 rounded-full bg-red-500 text-white text-[10px] border-2 border-white text-bold flex items-center justify-center translate-x-[50%] translate-y-[-50%]"
+              >
+                <span>2</span>
+              </div>
+            </button>
+            <span class="text-[#B2B2B2] text-xs font-light self-center"
+              >(555) 555-1234</span
+            >
+          </div>
+          <div class="flex items-center gap-2">
+            <div class="flex flex-col gap-0.5 items-end">
+              <p class="font-bold text-xs">Jason Mayfield Jr., 25</p>
+              <p class="font-normal text-xs">Remote Product Designer</p>
             </div>
-           <div class="flex items-center gap-2">
-               <div class="flex flex-col gap-0.5 items-end">
-                  <p class="font-bold text-xs">Jason Mayfield Jr., 25</p>
-                  <p class="font-normal text-xs" >Remote Product Designer</p>
-               </div>
-               <img class="w-10 h-10 rounded-full object-cover object-center" src="./images/ToyFaces_Colored_BG_56-scaled.jpg" alt="3D image">
-           </div>
-            
-         </div>
+            <img
+              class="w-10 h-10 rounded-full object-cover object-center"
+              src="./images/ToyFaces_Colored_BG_56-scaled.jpg"
+              alt="3D image"
+            />
+          </div>
+        </div>
       </header>
-      <hr
-      class="h-0.5 w-full bg-[#EFEFEF] my-5 block"
-      />
+      <hr class="h-0.5 w-full bg-[#EFEFEF] my-5 block" />
       <main>
-         <!-- The section houses the two columns -->
-         <section>
-            <!-- This first div is for column left -->
-            <div >
-               <!-- This next div is for the introduction part -->
-               <div class="flex flex-col gap-5">
-                  <!-- This div houses the introductory text -->
-                  <h2 class="text-xl font-bold text-[#545454]">Hello, I’m Jason! 👋</h2>
-                  <p class="font-normal text-xs" >A remote product designer from San Francisco, CA. I focus in <br> crafting beautiful experiences through visual design.</p>
-               <!-- This is the div for the buttons -->
-               <div class="flex flex-row items-center gap-2">
-                  
-                  <button  type="button" class="p-3 font-bold text-xs rounded-xl bg-[#9EE5E1] shadow-[0px_2px_0px_rgb(105,155,247)] active:shadow-none transition-all active:translate-y-2"
-                     >View My
-                     Portfolio</button>
-                  <button type="button" class="p-3 font-bold text-xs rounded-xl bg-[#E5BD8E] shadow-[0px_2px_0px_rgb(210,124,44)] active:shadow-none transition-all active:translate-y-2"
-                        >Website</button>
-                  <button type="button" class="p-3 font-bold text-xs rounded-xl bg-[#A9E372] shadow-[0px_2px_0px_rgb(15,169,88)] active:shadow-none transition-all active:translate-y-2"
-                        >Linktree</button>
-                        
-               </div>  
-               </div>
-               
-               <!-- This is the end of the introduction part -->
-               </div>
-               <!-- This div is for the Education -->
-               <div class="flex-col items-start p-2.5 static w-[360px] h-[192px] mt-10 mb-10 border-box border-[1px] border-[rgb(159,159,159)] rounded-xl">
-                  <h4 class="text-xs not-italic font-bold">EDUCATION</h4>
-<br>
-               <div class="flex flex-col items-start p-0 static w-[340px] h-[58px] left-2.5 top-[46px]"> 
-                  <h4 class="static w-[340px] h-4 left-0 top-0 font-bold text-xs capitalize">Bachelor of Fine Arts</h4>
-                  <p class="static w-[340px] h-4 left-0 top-[16px] font-normal text-xs capitalize">New York University/New York, NY / 2014-2018</p> 
-                  
-                  <p class="font-normal text-xs w-[340px] h-4 left-0 top-[42px]">Graduated magna cum laude</p>
-               </div>
-               <br>
-               
-                  <div  class="flex flex-col items-start p-0 static w-[340px] h-[58px] left-2.5 top-[124px]">
-                     <h4 class="static w-[340px] h-4 left-0 top-0 font-bold text-xs capitalize">High School Diploma</h4>
-                     <p class="static w-[340px] h-4 left-0 top-[16px] font-normal text-xs capitalize">Kent Higher Secondary School /Pontiac,MI /Class of 2014</p>
-                     
-                     <p class="static h-4 left-0 top-[42px] font-normal text-xs">Class valecditorian, chess club chair. </p>
-                  </div>
-                 
-            
-                  
-               </div>
-               <!-- This div is for work experience -->
-               <div class="flex flex-col items-start p-2.5 static w-[360px] h-[260px] left-0 top-[363px] border-[1px] border-solid border-[rgb(159,159,159)] rounded-xl">
-                  <h4 class="static w-[115px] h-4 left-2.5 top-2.5 font-bold text-xs uppercase">work experience</h4>
-                  <h4>Square</h4>
-                  <p><abbr>Sr. </abbr>Product designer / New York, NY / 2010-Present</p>
-                  <p>Front-end design for the square and Cash App.</p>
-            <div class="flex flex-col items-start p-0 static w-[340px] h-[74px] left-2.5 top-[124px]">
-               <h4 class="static w-[340px] h-4 left-0 top-0 font-bold text-xs capitalize bg-white">Uber</h4>
-               <p class="static w-[340px] h-4 left-0 top-4 font-normal text-xs capitalize bg-white"><abbr>Jr. </abbr>Product Designer / San Francisco, CA/2018-2020</p>
-               <p class="static w-[340px] h-8 left-0 top-[42px] font-normal text-xs bg-white">Involved in building the points and credit system with the Uber design team.</p>
+        <!-- The section houses the two columns -->
+        <section class="flex gap-5">
+          <!-- This first div is for column left -->
+          <div class="flex flex-col items-start p-0">
+            <!-- This next div is for the introduction part -->
+            <div class="flex flex-col gap-5">
+              <!-- This div houses the introductory text -->
+              <h2 class="text-xl font-bold text-[#545454]">
+                Hello, I’m Jason! 👋
+              </h2>
+              <p class="font-normal text-xs">
+                A remote product designer from San Francisco, CA. I focus in
+                <br />
+                crafting beautiful experiences through visual design.
+              </p>
+              <!-- This is the div for the buttons -->
+              <div class="flex flex-row items-center gap-2">
+                <button
+                  type="button"
+                  class="p-3 font-bold text-xs rounded-xl bg-[#9EE5E1] shadow-[0px_2px_0px_rgb(105,155,247)] active:shadow-none transition-all active:translate-y-2"
+                >
+                  View My Portfolio
+                </button>
+                <button
+                  type="button"
+                  class="p-3 font-bold text-xs rounded-xl bg-[#E5BD8E] shadow-[0px_2px_0px_rgb(210,124,44)] active:shadow-none transition-all active:translate-y-2"
+                >
+                  Website
+                </button>
+                <button
+                  type="button"
+                  class="p-3 font-bold text-xs rounded-xl bg-[#A9E372] shadow-[0px_2px_0px_rgb(15,169,88)] active:shadow-none transition-all active:translate-y-2"
+                >
+                  Linktree
+                </button>
+              </div>
             </div>
-                  
-            <div class="flex flex-col items-start p-0 static w-[340px] h-8 left-2.5 top-[218px]">
-               <h4 class="static w-[340px] h-4 left-0 top-0 font-bold text-xs capitalize bg-white">Meta (Prev. Facebook)</h4>
-               <p class="static w-[340px] h-4 left-0 top-4 font-normal text-xs capitalize bg-white">Design intern / Palo Alto, CA / 2017-2018</p>
-            </div>
-                  
-               </div>
-            
-            <div >
-               <div >
-                  <h4>SKILLS</h4>
-                  <ul >
-                     <li>Product design</li>
-                     <li>UI/UX</li>
-                     <li>Web development</li>
-                     <li>Animation</li>
-                  </ul>
-               </div>
-      
-               <div >
-                  <h4 >TOOLS</h4>
-                  <div >
-                     <ul >
-                        <li>Figma/FigJam</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe After Effects</li>
-                        <li>Webflow</li>
-                     </ul>
-                  </div></div>
-                  
-                  
-               </div>
-      
-      
-               <div >
-                  <h4>INTERESTS</h4>
-                  <div ><ul >
-                     <li>Kayaking</li>
-                     <li>Longboarding</li>
-                  </ul></div>
-                  
-               </div>
-               <footer>
-                  <div >
-                     <img src="./images/Flags/USA.png" alt="USA flag" >
-                     <img src="./images/Flags/FRA.png" alt="France flag" >
-                    
 
-                  </div>
+            <!-- This is the end of the introduction part -->
+            <!-- This div is for the Education -->
+            <div
+              class="flex-col items-start p-2.5 static w-[360px] h-[192px] mt-10 mb-10 box-border border-[1px] border-[rgb(159,159,159)] rounded-xl"
+            >
+              <h4 class="text-xs not-italic font-bold">EDUCATION</h4>
+              <br />
+              <div
+                class="flex flex-col items-start p-0 static w-[340px] h-[58px]"
+              >
+                <h4
+                  class="static w-[340px] h-4 left-0 top-0 font-bold text-xs capitalize"
+                >
+                  Bachelor of Fine Arts
+                </h4>
+                <p class="static w-[340px] h-4 font-normal text-xs capitalize">
+                  New York University/New York, NY / 2014-2018
+                </p>
 
-               </footer>
-              
-      
+                <p class="font-normal text-xs w-[340px] h-4 left-0 top-[42px]">
+                  Graduated magna cum laude
+                </p>
+              </div>
+              <br />
+
+              <div
+                class="flex flex-col items-start p-0 static w-[340px] h-[58px] left-2.5 top-[124px]"
+              >
+                <h4 class="static w-[340px] h-4 font-bold text-xs capitalize">
+                  High School Diploma
+                </h4>
+                <p
+                  class="static w-[340px] h-4 left-0 top-[16px] font-normal text-xs capitalize"
+                >
+                  Kent Higher Secondary School /Pontiac,MI /Class of 2014
+                </p>
+
+                <p class="static h-4 left-0 top-[42px] font-normal text-xs">
+                  Class valecditorian, chess club chair.
+                </p>
+              </div>
             </div>
-      
-      
-      
-      
-         <hr class="absolute w-[572px] border-solid h-0 left-5 top-[750px] border-[1px] border-[rgb(159,159,159)]">
-      
-         <footer >
-            <p >&copy; 2022-Present / Jason Mayfield Jr.</p>
-            <p >Digital résumé. Print only if necessary. 🌱</p>
-         </footer>
-      
-      </section>
+            <!-- This div is for work experience -->
+            <div
+              class="flex flex-col items-start p-2.5 static w-[360px] h-[260px] left-0 top-[363px] border-[1px] border-solid border-[rgb(159,159,159)] rounded-xl"
+            >
+              <h4
+                class="static w-[115px] h-4 left-2.5 top-2.5 font-bold text-xs uppercase"
+              >
+                work experience
+              </h4>
+              <div
+                class="flex flex-col items-start p-0 static w-[340px] h-[58px] left-2.5 top-[46px]"
+              >
+                <h4
+                  class="static w-[340px] h-4 left-0 top-0 font-bold text-xs capitalize bg-white"
+                >
+                  Square
+                </h4>
+                <p
+                  class="static w-[340px] h-4 left-0 top-4 font-normal text-xs capitalize bg-white"
+                >
+                  <abbr>Sr. </abbr>Product designer / New York, NY /
+                  2010-Present
+                </p>
+                <p
+                  class="static w-[340px] h-4 left-0 top-[42px] font-normal text-xs bg-white"
+                >
+                  Front-end design for the square and Cash App.
+                </p>
+              </div>
+
+              <div
+                class="flex flex-col items-start p-0 static w-[340px] h-[74px] left-2.5 top-[124px]"
+              >
+                <h4
+                  class="static w-[340px] h-4 left-0 top-0 font-bold text-xs capitalize bg-white"
+                >
+                  Uber
+                </h4>
+                <p
+                  class="static w-[340px] h-4 left-0 top-4 font-normal text-xs capitalize bg-white"
+                >
+                  <abbr>Jr. </abbr>Product Designer / San Francisco,
+                  CA/2018-2020
+                </p>
+                <p
+                  class="static w-[340px] h-8 left-0 top-[42px] font-normal text-xs bg-white"
+                >
+                  Involved in building the points and credit system with the
+                  Uber design team.
+                </p>
+              </div>
+
+              <div
+                class="flex flex-col items-start p-0 static w-[340px] h-8 left-2.5 top-[218px]"
+              >
+                <h4
+                  class="static w-[340px] h-4 left-0 top-0 font-bold text-xs capitalize"
+                >
+                  Meta (Prev. Facebook)
+                </h4>
+                <p
+                  class="static w-[340px] h-4 left-0 top-4 font-normal text-xs capitalize"
+                >
+                  Design intern / Palo Alto, CA / 2017-2018
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- This is the div for the right column -->
+          <div
+            class="flex flex-col items-start p-0 w-48 h-[428px] left-[400px] top-[100px]"
+          >
+            <div
+              class="flex flex-col items-start p-2.5 static w-48 h-[120px] left-0 top-0 border-[1px] border-solid border-[rgb(159,159,159)] box-border rounded-xl"
+            >
+              <h4
+                class="static w-[40px] h-4 left-2.5 top-2.5 font-bold text-xs uppercase"
+              >
+                SKILLS
+              </h4>
+              <div
+                class="flex flex-col items-start p-0 static w-[172px] h-16 left-2.5 top-[46px]"
+              >
+                <ul
+                  class="list-disc static w-[172px] h-16 left-0 top-0 font-normal text-xs"
+                >
+                  <li>Product design</li>
+                  <li>UI/UX</li>
+                  <li>Web development</li>
+                  <li>Animation</li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col items-start p-2.5 static w-48 h-[136px] left-0 top-[140px] border-[1px] border-solid border-[rgb(159,159,159)] rounded-xl"
+            >
+              <h4
+                class="static w-[40px] h-4 left-2.5 top-2.5 font-bold text-xs uppercase"
+              >
+                tools
+              </h4>
+              <div
+                class="flex flex-col items-start p-0 w-[172px] h-20 left-2.5 top-[46px]"
+              >
+                <ul
+                  class="list-disc static w-[172px] h-20 left-0 top-0 font-normal text-xs"
+                >
+                  <li>Figma/FigJam</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Adobe After Effects</li>
+                  <li>Webflow</li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col items-start p-2.5 static w-48 h-[88px] left-0 top-[296px] border-[1px] border-solid border-[rgb(159,159,159)] rounded-xl"
+            >
+              <h4
+                class="static w-[65px] h-4 left-2.5 top-2.5 font-bold text-xs uppercase"
+              >
+                interests
+              </h4>
+              <div
+                class="flex flex-col items-start p-0 static w-[172px] h-8 left-2.5 top-[46px]"
+              >
+                <ul
+                  class="list-disc static w-[172px] h-8 left-0 top-0 font-normal text-xs"
+                >
+                  <li>Kayaking</li>
+                  <li>Longboarding</li>
+                </ul>
+              </div>
+            </div>
+
+            <footer
+              class="flex flex-col items-start p-0 static w-48 h-6 left-0 top-[404px]"
+            >
+              <br />
+              <hr
+                class="static w-48 h-0 left-0 top-0 border-[1px] border-solid border-[rgb(239,239,239)]"
+              />
+              <div
+                class="flex flex-row items-start gap-2 p-0 static w-[58px] h-[14px] left-0 top-2.5"
+              >
+                <img src="./images/Flags/USA.png" alt="USA flag" />
+                <img src="./images/Flags/FRA.png" alt="France flag" />
+              </div>
+            </footer>
+          </div>
+        </section>
+        <br />
+
+        <footer>
+          <hr
+            class="w-full border-solid border-[1px] border-[rgb(159,159,159)]"
+          />
+          <div class="flex flex-row justify-between items-start p-0 w-full">
+            <p class="static w-full font-normal leading-3 text-[9px]">
+              &copy; 2022-Present / Jason Mayfield Jr.
+            </p>
+            <p class="static w-full font-normal text-[9px] leading-3">
+              Digital résumé. Print only if necessary. 🌱
+            </p>
+          </div>
+        </footer>
       </main>
-
-   
-
-  
- 
- 
-</body>
+    </div>
+  </body>
 </html>
