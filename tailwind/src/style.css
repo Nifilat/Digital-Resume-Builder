@@ -401,7 +401,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  
+  vertical-align: middle;
   /* 2 */
 }
 
@@ -625,6 +625,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 5rem;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -723,6 +743,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[14px\] {
   height: 14px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-10 {
@@ -843,6 +867,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.25rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .self-center {
   align-self: center;
 }
@@ -906,6 +954,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .border-\[rgb\(239\2c 239\2c 239\)\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 239 239 / var(--tw-border-opacity));
+}
+
+.border-\[\#efefef\] {
   --tw-border-opacity: 1;
   border-color: rgb(239 239 239 / var(--tw-border-opacity));
 }
